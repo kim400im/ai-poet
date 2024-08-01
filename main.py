@@ -1,6 +1,6 @@
-from dotenv import load_dotenv
+#from dotenv import load_dotenv
 import streamlit as st
-load_dotenv()
+#load_dotenv()
 from langchain_openai import OpenAI
 
 llm = OpenAI()
